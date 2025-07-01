@@ -1,0 +1,67 @@
+Here are some common graphic designing commands and tools:
+
+**Adobe Photoshop:**
+
+1. **Selection Tools:**
+	* Marquee Tool (M): Selects a rectangular or elliptical area.
+	* Lasso Tool (L): Selects a freehand area.
+	* Magic Wand Tool (W): Selects an area based on color.
+2. **Editing Tools:**
+	* Move Tool (V): Moves a selection or layer.
+	* Transform Tool (Ctrl+T): Resizes, rotates, or skews a selection or layer.
+	* Crop Tool (C): Crops an image.
+3. **Painting and Drawing Tools:**
+	* Brush Tool (B): Paints with a brush.
+	* Pencil Tool (N): Draws with a pencil.
+	* Clone Stamp Tool (S): Copies a selection and paints with it.
+4. **Layer Tools:**
+	* New Layer (Ctrl+Shift+N): Creates a new layer.
+	* Duplicate Layer (Ctrl+J): Duplicates a layer.
+	* Merge Layers (Ctrl+E): Merges multiple layers.
+5. **Filter and Effects Tools:**
+	* Filter Gallery (Ctrl+Shift+F): Applies filters to an image.
+	* Layer Styles (Ctrl+Shift+L): Applies layer styles, such as drop shadows or bevels.
+
+**Adobe Illustrator:**
+
+1. **Selection Tools:**
+	* Selection Tool (V): Selects an object.
+	* Direct Selection Tool (A): Selects a specific part of an object.
+2. **Drawing Tools:**
+	* Pen Tool (P): Creates a path with the pen tool.
+	* Shape Tools (e.g., Rectangle, Ellipse, Polygon): Creates shapes.
+3. **Transform Tools:**
+	* Move Tool (V): Moves an object.
+	* Scale Tool (S): Resizes an object.
+	* Rotate Tool (R): Rotates an object.
+4. **Pathfinder Tools:**
+	* Unite (Ctrl+Shift+U): Combines multiple paths into one.
+	* Subtract (Ctrl+Shift+X): Subtracts one path from another.
+	* Intersect (Ctrl+Shift+I): Creates a new path from the intersection of two paths.
+5. **Color and Gradient Tools:**
+	* Color Panel (Ctrl+Shift+F): Selects and edits colors.
+	* Gradient Panel (Ctrl+Shift+G): Creates and edits gradients.
+
+**Other Graphic Design Tools:**
+
+1. **Color Picker:** A tool used to select and edit colors.
+2. **Grid System:** A system used to create a grid of lines and columns to help with layout and design.
+3. **Typography Tools:**
+	* Font Menu (Ctrl+Shift+F): Selects and edits fonts.
+	* Character Panel (Ctrl+Shift+T): Edits character settings, such as kerning and tracking.
+4. **Image Editing Tools:**
+	* Levels (Ctrl+L): Adjusts the brightness and contrast of an image.
+	* Curves (Ctrl+M): Adjusts the tone curve of an image.
+
+**Common Keyboard Shortcuts:**
+
+1. **Undo (Ctrl+Z)**: Undoes the last action.
+2. **Redo (Ctrl+Y)**: Redoes the last action.
+3. **Save (Ctrl+S)**: Saves the current file.
+4. **Copy (Ctrl+C)**: Copies a selection.
+5. **Paste (Ctrl+V)**: Pastes a copied selection.
+6. **Cut (Ctrl+X)**: Cuts a selection.
+7. **Select All (Ctrl+A)**: Selects all objects or layers.
+8. **Deselect (Ctrl+D)**: Deselects all objects or layers.
+
+These are just some of the common graphic designing commands and tools used in Adobe Photoshop and Illustrator, as well as other graphic design software.

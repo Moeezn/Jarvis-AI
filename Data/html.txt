@@ -1,0 +1,67 @@
+**Introduction to HTML**
+
+HTML (HyperText Markup Language) is the standard markup language used to create web pages. It is used to define the structure and content of web pages, and is the backbone of every website. HTML is a client-side language, meaning that it is executed by the web browser, rather than on the server.
+
+**Basic HTML Structure**
+
+A basic HTML document consists of the following elements:
+
+1. **DOCTYPE**: The document type declaration, which tells the browser that the document is written in HTML5.
+2. **html**: The root element of the document, which contains all the other elements.
+3. **head**: The head section, which contains metadata about the document, such as the title, character encoding, and links to external stylesheets or scripts.
+4. **body**: The body section, which contains the content of the document.
+
+**HTML Elements**
+
+HTML elements are represented by tags, which are surrounded by angle brackets (<>). There are two types of tags:
+
+1. **Opening tags**: These tags start an element, and are denoted by a less-than sign (<) followed by the element name.
+2. **Closing tags**: These tags end an element, and are denoted by a less-than sign (<) followed by a forward slash (/) and the element name.
+
+Some common HTML elements include:
+
+1. **h1**: A heading element, which represents a top-level heading.
+2. **p**: A paragraph element, which represents a block of text.
+3. **img**: An image element, which represents an image.
+4. **a**: An anchor element, which represents a hyperlink.
+5. **ul**: An unordered list element, which represents a list of items.
+6. **ol**: An ordered list element, which represents a list of items in a specific order.
+7. **table**: A table element, which represents a table of data.
+
+**HTML Attributes**
+
+HTML attributes provide additional information about an element. They are added to the opening tag, and consist of a name and a value. Some common HTML attributes include:
+
+1. **id**: A unique identifier for the element.
+2. **class**: A class name for the element, which can be used to apply styles or behaviors.
+3. **style**: A style attribute, which can be used to apply inline styles to the element.
+4. **href**: A hyperlink reference, which specifies the URL of a linked resource.
+5. **src**: A source attribute, which specifies the URL of an image or other media resource.
+
+**HTML Document Example**
+
+Here is an example of a simple HTML document:
+```html
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Web Page</title>
+</head>
+<body>
+	<h1>Welcome to my web page</h1>
+	<p>This is a paragraph of text.</p>
+	<img src="image.jpg" alt="An image">
+	<a href="https://www.example.com">Visit example.com</a>
+	<ul>
+		<li>Item 1</li>
+		<li>Item 2</li>
+		<li>Item 3</li>
+	</ul>
+</body>
+</html>
+```
+This document includes a heading, a paragraph, an image, a hyperlink, and an unordered list.
+
+**Conclusion**
+
+HTML is a fundamental language for creating web pages, and is used by web browsers to render content. By understanding the basic structure and elements of HTML, you can create your own web pages and start building your online presence.

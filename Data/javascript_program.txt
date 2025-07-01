@@ -1,0 +1,84 @@
+Here's a simple JavaScript program that demonstrates a few basic concepts:
+
+**Program:** To-Do List App
+```javascript
+// Define an array to store the to-do list items
+let todoList = [];
+
+// Function to add a new item to the to-do list
+function addItem() {
+    let item = prompt("Enter a new item to add to the to-do list:");
+    todoList.push(item);
+    console.log(`Item added: ${item}`);
+    displayList();
+}
+
+// Function to remove an item from the to-do list
+function removeItem() {
+    let index = prompt("Enter the index of the item to remove (1-based):");
+    index = parseInt(index) - 1;
+    if (index >= 0 && index < todoList.length) {
+        let item = todoList.splice(index, 1);
+        console.log(`Item removed: ${item}`);
+    } else {
+        console.log("Invalid index");
+    }
+    displayList();
+}
+
+// Function to display the to-do list
+function displayList() {
+    console.log("To-Do List:");
+    for (let i = 0; i < todoList.length; i++) {
+        console.log(`${i + 1}. ${todoList[i]}`);
+    }
+}
+
+// Main function
+function main() {
+    while (true) {
+        console.log("1. Add item");
+        console.log("2. Remove item");
+        console.log("3. Display list");
+        console.log("4. Quit");
+        let choice = prompt("Enter your choice (1/2/3/4):");
+        switch (choice) {
+            case "1":
+                addItem();
+                break;
+            case "2":
+                removeItem();
+                break;
+            case "3":
+                displayList();
+                break;
+            case "4":
+                console.log("Goodbye!");
+                return;
+            default:
+                console.log("Invalid choice");
+        }
+    }
+}
+
+// Call the main function
+main();
+```
+**How to run:**
+
+1. Save this code in a file with a `.js` extension (e.g., `todo.js`).
+2. Open a terminal or command prompt and navigate to the directory where you saved the file.
+3. Type `node todo.js` to run the program.
+4. Follow the prompts to use the to-do list app.
+
+This program demonstrates the following concepts:
+
+* Arrays (e.g., `todoList`)
+* Functions (e.g., `addItem`, `removeItem`, `displayList`)
+* Conditional statements (e.g., `if`, `else`)
+* Loops (e.g., `for`, `while`)
+* Switch statements
+* User input (e.g., `prompt`)
+* Basic data manipulation (e.g., `push`, `splice`)
+
+Note: This program uses the `prompt` function to get user input, which is a built-in function in JavaScript. However, in a real-world application, you would likely use a more robust input method, such as a HTML form or a library like React.

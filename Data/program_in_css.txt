@@ -1,0 +1,128 @@
+Here's a simple CSS program that styles a basic webpage:
+
+```css
+/* Global Styles */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+/* Header Styles */
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+/* Navigation Styles */
+
+nav {
+  background-color: #444;
+  padding: 10px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #ccc;
+}
+
+/* Main Content Styles */
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+main h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+main p {
+  margin-bottom: 20px;
+}
+
+/* Footer Styles */
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  clear: both;
+}
+
+footer p {
+  margin-bottom: 10px;
+}
+```
+
+This CSS program styles a basic webpage with a header, navigation, main content, and footer. You can apply this CSS to an HTML file to see the styles in action.
+
+Here's an example HTML file that you can use with this CSS:
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Basic Webpage</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Webpage</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+  <main>
+    <h2>Main Content</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+  </main>
+  <footer>
+    <p>&copy; 2023 My Webpage</p>
+  </footer>
+</body>
+</html>
+```
+
+Save the CSS code in a file named `style.css` and the HTML code in a file named `index.html`. Open the `index.html` file in a web browser to see the styled webpage.

@@ -1,0 +1,22 @@
+
+.element {
+  background-image: url('image.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 500px;
+}
+
+.element {
+  background: url('image.jpg') no-repeat center / cover;
+  height: 500px;
+  width: 500px;
+}
+
+.element {
+  background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/...);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 500px;
+}

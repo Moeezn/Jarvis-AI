@@ -1,0 +1,73 @@
+Here's a simple Python program that demonstrates a few basic concepts:
+
+**Program:** Calculator Program
+```python
+# Import the necessary modules
+import math
+
+# Define a function to add two numbers
+def add(x, y):
+    return x + y
+
+# Define a function to subtract two numbers
+def subtract(x, y):
+    return x - y
+
+# Define a function to multiply two numbers
+def multiply(x, y):
+    return x * y
+
+# Define a function to divide two numbers
+def divide(x, y):
+    if y == 0:
+        return "Error: Division by zero is not allowed"
+    else:
+        return x / y
+
+# Main function
+def main():
+    print("Simple Calculator Program")
+    print("1. Addition")
+    print("2. Subtraction")
+    print("3. Multiplication")
+    print("4. Division")
+
+    choice = input("Enter your choice (1/2/3/4): ")
+
+    if choice == "1":
+        num1 = float(input("Enter the first number: "))
+        num2 = float(input("Enter the second number: "))
+        print("Result: ", add(num1, num2))
+    elif choice == "2":
+        num1 = float(input("Enter the first number: "))
+        num2 = float(input("Enter the second number: "))
+        print("Result: ", subtract(num1, num2))
+    elif choice == "3":
+        num1 = float(input("Enter the first number: "))
+        num2 = float(input("Enter the second number: "))
+        print("Result: ", multiply(num1, num2))
+    elif choice == "4":
+        num1 = float(input("Enter the first number: "))
+        num2 = float(input("Enter the second number: "))
+        print("Result: ", divide(num1, num2))
+    else:
+        print("Invalid choice")
+
+# Call the main function
+if __name__ == "__main__":
+    main()
+```
+**How to run:**
+
+1. Save this code in a file with a `.py` extension (e.g., `calculator.py`).
+2. Open a terminal or command prompt and navigate to the directory where you saved the file.
+3. Type `python calculator.py` to run the program.
+4. Follow the prompts to use the calculator.
+
+This program demonstrates the following concepts:
+
+* Functions (e.g., `add`, `subtract`, `multiply`, `divide`)
+* Conditional statements (e.g., `if`, `elif`, `else`)
+* User input (e.g., `input`)
+* Basic arithmetic operations (e.g., `+`, `-`, `*`, `/`)
+* Error handling (e.g., division by zero)

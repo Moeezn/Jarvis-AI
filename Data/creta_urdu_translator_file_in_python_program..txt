@@ -1,0 +1,59 @@
+Here's an example of a simple Urdu translator using the Google Translate API in Python:
+
+**creta_urdu_translator.py**
+```python
+import tkinter as tk
+from tkinter import messagebox
+from googletrans import Translator
+
+class UrduTranslator:
+    def __init__(self):
+        self.window = tk.Tk()
+        self.window.title("Creta Urdu Translator")
+        self.window.geometry("400x300")
+
+        self.input_label = tk.Label(self.window, text="Enter English text:")
+        self.input_label.pack()
+
+        self.input_text = tk.Text(self.window, height=10, width=40)
+        self.input_text.pack()
+
+        self.translate_button = tk.Button(self.window, text="Translate to Urdu", command=self.translate)
+        self.translate_button.pack()
+
+        self.output_label = tk.Label(self.window, text="Urdu translation:")
+        self.output_label.pack()
+
+        self.output_text = tk.Text(self.window, height=10, width=40)
+        self.output_text.pack()
+
+    def translate(self):
+        translator = Translator()
+        english_text = self.input_text.get("1.0", "end-1c")
+        urdu_text = translator.translate(english_text, dest="ur").text
+        self.output_text.delete("1.0", tk.END)
+        self.output_text.insert(tk.END, urdu_text)
+
+    def run(self):
+        self.window.mainloop()
+
+if __name__ == "__main__":
+    translator = UrduTranslator()
+    translator.run()
+```
+This program creates a simple GUI with two text boxes: one for inputting English text and one for displaying the Urdu translation. When the user clicks the "Translate to Urdu" button, the program uses the Google Translate API to translate the English text into Urdu.
+
+**Note:** You'll need to install the `googletrans` library using pip:
+```bash
+pip install googletrans==4.0.0-rc1
+```
+Also, keep in mind that this is a simple example and may not work for all cases. For more accurate translations, you may want to consider using a more advanced translation API or library.
+
+**Example use case:**
+
+1. Run the program by executing `python creta_urdu_translator.py`
+2. Enter some English text in the input box, e.g. "Hello, how are you?"
+3. Click the "Translate to Urdu" button
+4. The Urdu translation will be displayed in the output box, e.g. "" (Assalam o alaikum, aap kaise hain?)
+
+I hope this helps! Let me know if you have any questions or need further assistance.

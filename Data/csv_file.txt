@@ -1,0 +1,58 @@
+**Sample CSV File for Medical AI Data**
+
+Here's a sample CSV file structure for medical AI data:
+
+```csv
+"Patient_ID","Age","Sex","Diagnosis","Treatment","Outcome"
+"001","25","Male","Diabetes","Metformin","Improved"
+"002","30","Female","Hypertension","Lisinopril","Stable"
+"003","40","Male","Cancer","Surgery","Recovered"
+"004","35","Female","Asthma","Inhaler","Managed"
+"005","45","Male","Cardiovascular Disease","Stent","Improved"
+```
+
+This CSV file contains the following columns:
+
+1. **Patient_ID**: Unique identifier for each patient
+2. **Age**: Patient's age
+3. **Sex**: Patient's sex (Male/Female)
+4. **Diagnosis**: Patient's diagnosis (e.g., Diabetes, Hypertension, Cancer)
+5. **Treatment**: Treatment prescribed to the patient (e.g., Metformin, Lisinopril, Surgery)
+6. **Outcome**: Patient's outcome (e.g., Improved, Stable, Recovered, Managed)
+
+**Example Use Case**
+
+Suppose we want to analyze the relationship between patient age and diagnosis. We can use the CSV file to create a scatter plot with age on the x-axis and diagnosis on the y-axis. This can help us identify patterns and trends in the data.
+
+**Code Example (Python)**
+```python
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Load the CSV file
+df = pd.read_csv("medical_data.csv")
+
+# Create a scatter plot
+plt.scatter(df["Age"], df["Diagnosis"])
+plt.xlabel("Age")
+plt.ylabel("Diagnosis")
+plt.title("Age vs. Diagnosis")
+plt.show()
+```
+
+This code loads the CSV file into a pandas DataFrame, creates a scatter plot using matplotlib, and displays the plot.
+
+**Data Dictionary**
+
+Here's a data dictionary for the CSV file:
+
+| Column Name | Data Type | Description |
+| --- | --- | --- |
+| Patient_ID | string | Unique identifier for each patient |
+| Age | integer | Patient's age |
+| Sex | string | Patient's sex (Male/Female) |
+| Diagnosis | string | Patient's diagnosis (e.g., Diabetes, Hypertension, Cancer) |
+| Treatment | string | Treatment prescribed to the patient (e.g., Metformin, Lisinopril, Surgery) |
+| Outcome | string | Patient's outcome (e.g., Improved, Stable, Recovered, Managed) |
+
+Note: The data dictionary provides a detailed description of each column in the CSV file, including the data type and a brief description of the data.
